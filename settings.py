@@ -1,6 +1,6 @@
-DOMAIN = ''  # YOUR DOMAIN WITH HTTPS
+DOMAIN = 'https://deeply-telegram.herokuapp.com/'  # YOUR DOMAIN WITH HTTPS
 PORT = 5000  # SHOULD BE THE SAME AS IN YOUR SERVER.CONF FILE
-TOKEN = ''
+TOKEN = '2010739981:AAGeficThoCKvqAljbPT7k4w98x6B_VTt80'
 
 db_name = 'settings.db'
 cc = ('US', 'FR', 'DE', 'IT', 'ES', 'NL', 'PL', 'PT', 'RU')  # country codes
