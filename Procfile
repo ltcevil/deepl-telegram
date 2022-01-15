@@ -1,2 +1,2 @@
-web: bin/start-nginx bundle exec unicorn -c config/nginx.conf.erb
+web: bin/start-nginx exec -c config/nginx.conf.erb
 worker: python3 deepl.py
