@@ -1,2 +1,2 @@
-web: bin/start-nginx exec -c config/nginx.conf.erb
+web: bin/start-nginx-solo
 worker: python3 deepl.py
